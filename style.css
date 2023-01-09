@@ -33,3 +33,47 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.intro {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.welcome {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.description {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.buttons {
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+
+}
+
+.ourFace {
+    background-color: grey;
+}
