@@ -11,7 +11,8 @@ body {
     flex: 1 1 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 25%;
     padding:  10px 20px;
 }
 
@@ -40,8 +41,9 @@ a {
     flex: 1 1 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+    justify-content: center;
+    gap: 25%;
+    padding: 60px 20px;
 }
 
 .welcome {
@@ -85,7 +87,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
+    padding: 60px 20px;
 }
 
 .mainText {
@@ -109,7 +112,7 @@ a {
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
-    padding:70px;
+    padding:70px 20px;
 }
 
 .container {
@@ -132,7 +135,7 @@ a {
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
-    padding: 35px;
+    padding: 70px 20px;
 }
 
 .square {
@@ -169,7 +172,7 @@ a {
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 10px;
+    padding: 20px;
     flex: 1 1 auto;
     display: flex;
     justify-content: center;
