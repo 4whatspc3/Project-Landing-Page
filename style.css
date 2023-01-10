@@ -83,6 +83,7 @@ a {
     width: 400px;
     height: auto;
     border: 2px solid #3882f6;
+    border-radius: 10px;
 }
 
 .details {
@@ -102,12 +103,20 @@ a {
 
 .manyCards {
     display: flex;
-    gap: 15px;
+    gap: 100px;
 }
 
 .card {
    max-width: 150px;
    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .argument {
